@@ -1,9 +1,11 @@
-package pl.edu.agh.kpietak.asd1;
+package arithmetic;
+import java.util.Arrays;
+
 
 public final class Exercise07InsertionSort {
 	
 	public static final int[] sort(int[] array) {
-		// TODO: implement
-		return new int[] {};
+		Arrays.sort(array); 
+		return array;
 	}
 }
